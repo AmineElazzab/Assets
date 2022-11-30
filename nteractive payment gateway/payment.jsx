@@ -6,9 +6,7 @@ var NewComponent = React.createClass({
           <meta charSet="UTF-8" />
           <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
           <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-          <title>Interactive payment gateway | TailwindCSS x AlpineJS</title>
           <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet" />
-          {/* <link rel="stylesheet" href="./assets/styles/styles.css" /> */}
           <style dangerouslySetInnerHTML={{__html: "\n      .form-select {\n        background-image: url(\"data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 20 20'%3e%3cpath stroke='%239ca3af' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5' d='M6 8l4 4 4-4'/%3e%3c/svg%3e\");\n        background-repeat: no-repeat;\n        background-position: right 0.5rem center;\n        background-size: 1.5em 1.5em;\n        -webkit-tap-highlight-color: transparent;\n      }\n\n      .submit-button:disabled {\n        cursor: not-allowed;\n        background-color: #D1D5DB;\n        color: #111827;\n      }\n\n      .submit-button:disabled:hover {\n        background-color: #9CA3AF;\n      }\n\n      .credit-card {\n        max-width: 420px;\n        margin-top: 3rem;\n      }\n\n      @media only screen and (max-width: 420px)  {\n        .credit-card .front {\n          font-size: 100%;\n          padding: 0 2rem;\n          bottom: 2rem !important;\n        }\n\n        .credit-card .front .number {\n          margin-bottom: 0.5rem !important;\n        }\n      }\n    " }} />
           <div className="m-4">
             <div className="credit-card w-full sm:w-auto shadow-lg mx-auto rounded-xl bg-white" x-data="creditCard">
